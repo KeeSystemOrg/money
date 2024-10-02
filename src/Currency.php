@@ -11,7 +11,7 @@ use Stringable;
 /**
  * A currency. This class is immutable.
  */
-class Currency implements Stringable, JsonSerializable
+class Currency implements CurrencyInterface, Stringable, JsonSerializable
 {
     /**
      * The currency code.
